@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet")
+        link(rel="stylesheet", href="../stylesheets/style.css")
+        title SuperStore
+    body 
+        div#mailBox(style="display:flex, flex-direction:column; border:1px solid #958f8f; border-radius:10px; margin:15px auto; height:337px; width:417px; padding:15px;") 
+            h1(style="color: #c345c3;text-align: center;font-family: 'Roboto', sans-serif;font-size: 35px;") Email Verification 
+            h3(style="padding: 0;margin: 0;color: #407905;") Your otp is as follows 
+            #otpBox(style="display: flex; height: 75px; width: 250px; margin: 15px auto; align-items: center; justify-content: center; border: 1px solid #ccc; font-size: 30px; letter-spacing: 19px; color: #6f6969; font-weight: bold; border-radius: 10px;") #{otp}
+            #note(style="width: 100%;margin: 16px 0 5px 0;text-align: center;color: #877d7d;") Do not share this otp with any individual. Please keep it secret untill the purpose of one-time password is served.

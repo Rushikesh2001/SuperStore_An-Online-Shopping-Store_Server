@@ -1,0 +1,54 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+#mailBox {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #958f8f;
+  border-radius: 10px;
+  margin: 15px auto;
+  height: 337px;
+  width: 417px;
+  padding: 15px;
+}
+
+#mailBox h1 {
+  color: #c345c3;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+
+#mailBox h3 {
+  padding: 0;
+  margin: 0;
+  color: #407905;
+}
+
+#otpBox {
+  display: flex;
+  height: 75px;
+  width: 250px;
+  margin: 15px auto;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  font-size: 30px;
+  letter-spacing: 19px;
+  color: #6f6969;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#note {
+  width: 100%;
+  margin: 16px 0 5px 0;
+  text-align: center;
+  color: #877d7d;
+}
